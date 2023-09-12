@@ -23,4 +23,3 @@ mkdir -p .gnostr >/tmp/gnostr-org.log;\
 [   -d .gnostr/org ] && echo "gnostr-org:git:updating .gnostr/org"
 [   -d .gnostr/org ] && cd .gnostr/org && git reset --hard 2>/tmp/gnostr-org.log && git pull -f origin master 2>/tmp/gnostr-org.log && echo ".gnostr/org" >> .gitignore >/tmp/gnostr-org.log 2>&1 && $(which npm) start > /tmp/gnostr-org.log 2>&1;\
 )#2>/tmp/gnostr-org.log;
-
