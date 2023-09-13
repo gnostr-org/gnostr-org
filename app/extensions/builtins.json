@@ -19,5 +19,10 @@
     "version": "1.47.4",
     "url": "https://github.com/gorhill/uBlock/releases/download/{version}/uBlock0_{version}.chromium.zip",
     "stripPrefix": "uBlock0.chromium/"
+  },
+  "nodegit": {
+    "version": "0.27.0.archiveweb.page",
+    "url": "https://github.com/gnostr-org/nodegit/archive/refs/tags/v{version}.zip",
+    "stripPrefix":"nodegit-0.27.0/"
   }
 }
