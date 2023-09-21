@@ -1,6 +1,6 @@
 {
   "name": "gnostr-org",
-  "version": "2.2.3",
+  "version": "0.0.6",
   "description": "gnostr.org: a git+nostr utility",
   "main": "app/main.cjs",
   "type": "module",
@@ -27,6 +27,16 @@
       "version.js"
     ]
   },
+  "_comment": "linux build",
+  "_comment": "pnpm exec electron-builder build --publish never -l",
+  "_comment": "mac build",
+  "_comment": "pnpm exec electron-builder build --publish never -m",
+  "_comment": "mac universal build",
+  "_comment": "build on MacOS x86_64?",
+  "_comment": "build on MacOS Arm64?",
+  "_comment": "pnpm exec electron-builder build --publish never --universal",
+  "_comment": "windows build",
+  "_comment": "pnpm exec electron-builder build --publish never -w",
   "build": {
     "npmRebuild": true,
     "asar": true,
@@ -38,7 +48,7 @@
       "package.json"
     ],
     "productName": "gnostr.org",
-    "appId": "org.gnostr.org",
+    "appId": "app.gnostr.org",
     "files": [
       "build/*",
       "app/**/*",
@@ -133,6 +143,7 @@
       "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
       "darkModeSupport": true,
       "gatekeeperAssess": false,
+      "provisioningProfile":"build/org.gnostr.org.provisionprofile",
       "target": [
         {
           "target": "dmg",
@@ -175,7 +186,7 @@
     "browser",
     "dweb"
   ],
-  "author": "rangermauve <contact@mauve.moe> (https://mauve.moe/)",
+  "author": "gnostr.org <admin@gnostr.org (https://gnostr.org)",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/AgregoreWeb/agregore-browser/issues"

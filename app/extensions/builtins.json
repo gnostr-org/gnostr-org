@@ -11,10 +11,12 @@
     "version": "1.0.1",
     "url": "https://github.com/AgregoreWeb/extension-agregore-qr-share/releases/download/v{version}/agregore-qr-share-v{version}.zip"
   },
+
   "archiveweb.page": {
     "version": "0.10.0",
     "url": "https://github.com/webrecorder/archiveweb.page/releases/download/v{version}/ArchiveWeb.page-{version}-extension.zip"
   },
+
   "ublock": {
     "version": "1.47.4",
     "url": "https://github.com/gorhill/uBlock/releases/download/{version}/uBlock0_{version}.chromium.zip",
@@ -22,7 +24,9 @@
   },
   "gnostr-nodegit": {
     "version": "0.0.1",
-    "url":"https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v{version}",
-    "stripPrefix": "gnostr-nodegit/"
+    "_comment":"https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
+    "_comment":"wget https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
+    "url":"https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
+    "stripPrefix": "gnostr-nodegit-0.0.1"
   }
 }
