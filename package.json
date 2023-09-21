@@ -38,7 +38,7 @@
   "_comment": "windows build",
   "_comment": "pnpm exec electron-builder build --publish never -w",
   "build": {
-    "npmRebuild": false,
+    "npmRebuild": true,
     "asar": true,
     "asarUnpack": [
       "app/**",
