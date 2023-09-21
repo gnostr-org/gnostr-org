@@ -1,6 +1,6 @@
 
 export const name = 'gnostr-org'
-export const version = '2.2.3'
+export const version = '0.0.6'
 export const dependencies = {
   "abort-controller": "^3.0.0",
   "bt-fetch": "^3.1.1",

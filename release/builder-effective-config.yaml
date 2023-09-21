@@ -1,0 +1,92 @@
+directories:
+  output: release
+  buildResources: build
+npmRebuild: true
+asar: true
+asarUnpack:
+  - app/**
+  - node_modules/**
+  - build/icon.png
+  - build/icon-small.png
+  - package.json
+productName: gnostr.org
+appId: app.gnostr.org
+files:
+  - filter:
+      - build/*
+      - app/**/*
+      - app/*
+      - node_modules/**/*
+      - package.json
+fileAssociations:
+  - ext: html
+    name: web page
+    role: Viewer
+  - ext: md
+    name: markdown
+    role: Viewer
+  - ext: gemini
+    role: Viewer
+protocols:
+  - name: hypercore-protocol
+    schemes:
+      - hyper
+      - dat
+    role: Viewer
+  - name: webpages
+    schemes:
+      - http
+      - https
+    role: Viewer
+  - name: gemini
+    schemes:
+      - gemini
+    role: Viewer
+  - name: ipfs
+    schemes:
+      - ipfs
+      - ipns
+      - ipld
+    role: Viewer
+  - name: bittorrent
+    schemes:
+      - magnet
+      - bittorrent
+      - bt
+    role: Viewer
+  - name: SecureScuttlebutt
+    schemes:
+      - ssb
+    role: Viewer
+dmg:
+  contents:
+    - x: 130
+      'y': 220
+    - x: 410
+      'y': 220
+      type: link
+      path: /Applications
+mac:
+  artifactName: ${name}-${version}-${os}-${arch}.${ext}
+  darkModeSupport: true
+  gatekeeperAssess: false
+  provisioningProfile: build/org.gnostr.org.provisionprofile
+  target:
+    - target: dmg
+      arch:
+        - x64
+win:
+  target:
+    - nsis
+    - portable
+linux:
+  artifactName: ${name}-${version}-${os}-${arch}.${ext}
+  executableArgs:
+    - '--enable-accelerated-video'
+  target:
+    - deb
+    - AppImage
+    - apk
+    - pacman
+  category: Network;FileTransfer:P2P
+electronVersion: 23.0.0-beta.2
