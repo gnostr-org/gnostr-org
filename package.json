@@ -28,7 +28,7 @@
     ]
   },
   "build": {
-    "npmRebuild": true,
+    "npmRebuild": false,
     "asar": true,
     "asarUnpack": [
       "app/**",
@@ -38,7 +38,7 @@
       "package.json"
     ],
     "productName": "gnostr.org",
-    "appId": "org.gnostr.org",
+    "appId": "app.gnostr.org",
     "files": [
       "build/*",
       "app/**/*",
@@ -133,6 +133,7 @@
       "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
       "darkModeSupport": true,
       "gatekeeperAssess": false,
+      "provisioningProfile":"build/org.gnostr.org.provisionprofile",
       "target": [
         {
           "target": "dmg",
