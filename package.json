@@ -1,6 +1,6 @@
 {
   "name": "gnostr-org",
-  "version": "2.2.3",
+  "version": "0.0.6",
   "description": "gnostr.org: a git+nostr utility",
   "main": "app/main.cjs",
   "type": "module",
@@ -186,7 +186,7 @@
     "browser",
     "dweb"
   ],
-  "author": "rangermauve <contact@mauve.moe> (https://mauve.moe/)",
+  "author": "gnostr.org <admin@gnostr.org (https://gnostr.org)",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/AgregoreWeb/agregore-browser/issues"
