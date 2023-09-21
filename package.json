@@ -27,6 +27,16 @@
       "version.js"
     ]
   },
+  "_comment": "linux build",
+  "_comment": "pnpm exec electron-builder build --publish never -l",
+  "_comment": "mac build",
+  "_comment": "pnpm exec electron-builder build --publish never -m",
+  "_comment": "mac universal build",
+  "_comment": "build on MacOS x86_64?",
+  "_comment": "build on MacOS Arm64?",
+  "_comment": "pnpm exec electron-builder build --publish never --universal",
+  "_comment": "windows build",
+  "_comment": "pnpm exec electron-builder build --publish never -w",
   "build": {
     "npmRebuild": false,
     "asar": true,
