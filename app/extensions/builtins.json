@@ -26,6 +26,7 @@
     "version": "0.0.1",
     "_comment":"https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
     "_comment":"wget https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
-    "url":"https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1"
+    "url":"https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
+    "stripPrefix": "gnostr-nodegit-0.0.1"
   }
 }
