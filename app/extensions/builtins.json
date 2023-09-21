@@ -28,5 +28,12 @@
     "_comment":"wget https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
     "url":"https://codeload.github.com/gnostr-org/gnostr-nodegit/zip/refs/tags/v0.0.1",
     "stripPrefix": "gnostr-nodegit-0.0.1"
+  },
+  "gnostr": {
+    "version": "0.0.12",
+    "_comment":"https://codeload.github.com/gnostr-org/gnost/zip/refs/tags/v0.0.12",
+    "_comment":"wget https://codeload.github.com/gnostr-org/gnostr/zip/refs/tags/v0.0.12",
+    "url":"https://codeload.github.com/gnostr-org/gnostr/zip/refs/tags/v0.0.12",
+    "stripPrefix": "gnostr-0.0.12"
   }
 }
