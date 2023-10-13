@@ -6,6 +6,9 @@ install:
 	@install gnostr-org /usr/local/bin/
 	@$(MAKE) npm-install
 npm-install:
+	rm -rf ~/Library/Application\ Support/gnostr-org/extensions/gnostr/web/@adonisjs || echo
+	rm -rf ~/Library/Application\ Support/gnostr-org/extensions/gnostr/web/@noble || echo
+	rm -rf ~/Library/Application\ Support/gnostr-org/extensions/gnostr/web/@* || echo
 	@npm install
 npm-start:
 	@npm start
