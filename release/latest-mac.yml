@@ -1,8 +1,8 @@
 version: 0.0.6
 files:
   - url: gnostr-org-0.0.6-mac-x64.dmg
-    sha512: 5khvyRBr7q+augTk2IrQml2GqC+AbuzCUZ5iYf2gLHUuBdmsGz4c5PBe7I+mQRt6s1WZQQRzz/meTTKS2v5diw==
-    size: 173093714
+    sha512: 2gqaQ3GUK0VEQOqsK4+1Cy7z1kogWJs7U2YS8p+S1og/ahhKUQOEmVrpj4LMsjJkgLr7PZb2Zh1DKCnKx1v/NQ==
+    size: 211192521
 path: gnostr-org-0.0.6-mac-x64.dmg
-sha512: 5khvyRBr7q+augTk2IrQml2GqC+AbuzCUZ5iYf2gLHUuBdmsGz4c5PBe7I+mQRt6s1WZQQRzz/meTTKS2v5diw==
-releaseDate: '2023-09-21T14:32:40.282Z'
+sha512: 2gqaQ3GUK0VEQOqsK4+1Cy7z1kogWJs7U2YS8p+S1og/ahhKUQOEmVrpj4LMsjJkgLr7PZb2Zh1DKCnKx1v/NQ==
+releaseDate: '2023-10-13T02:41:12.333Z'
