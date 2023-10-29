@@ -11,7 +11,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
 
---
+---
 
 ##### run:
 
@@ -26,13 +26,13 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
 </center>
 
---
+---
 
 <details>
 <summary>Checkout [Agregore Browser](https://agregore.mauve.moe)</summary>
 <p>
 
---
+---
 
 # Agregore Browser
 A minimal web browser for the distributed web
