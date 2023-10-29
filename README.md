@@ -26,12 +26,12 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ---
 
 <details>
-<summary>Checkout [Agregore Browser](https://agregore.mauve.moe)</summary>
+<summary>Checkout Agregore Browser </summary>
 <p>
 
 ---
 
-# Agregore Browser
+# [Agregore Browser](https://agregore.mauve.moe)
 A minimal web browser for the distributed web
 
 <p align="center" style="float: right">
