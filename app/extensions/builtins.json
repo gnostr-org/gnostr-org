@@ -30,10 +30,10 @@
     "stripPrefix": "gnostr-nodegit-0.0.1"
   },
   "gnostr": {
-    "version": "0.0.14",
-    "_comment":"https://codeload.github.com/gnostr-org/gnost/zip/refs/tags/v0.0.14",
-    "_comment":"wget https://codeload.github.com/gnostr-org/gnostr/zip/refs/tags/v0.0.14",
-    "url":"https://codeload.github.com/gnostr-org/gnostr/zip/refs/tags/v0.0.14",
-    "stripPrefix": "gnostr-0.0.14"
+    "version": "0.0.15",
+    "_comment":"https://codeload.github.com/gnostr-org/gnost/zip/refs/tags/v0.0.15",
+    "_comment":"wget https://codeload.github.com/gnostr-org/gnostr/zip/refs/tags/v0.0.15",
+    "url":"https://codeload.github.com/gnostr-org/gnostr/zip/refs/tags/v0.0.15",
+    "stripPrefix": "gnostr-0.0.15"
   }
 }
