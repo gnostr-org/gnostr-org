@@ -1,6 +1,6 @@
 NODE_VERSION=v18.17.1
 -:
-	@. ~/.nvm/nvm.sh && nvm install v18.17.1 || echo "install nvm!!!"
+	@. ~/.nvm/nvm.sh && nvm install || echo "install nvm!!!"
 	@. ~/.nvm/nvm.sh && nvm use
 install:
 	@install gnostr-org /usr/local/bin/
