@@ -2,6 +2,7 @@
 export const name = 'gnostr-org'
 export const version = '0.0.6'
 export const dependencies = {
+  "@roamhq/wrtc": "^0.8.0",
   "abort-controller": "^3.0.0",
   "bt-fetch": "^3.1.1",
   "create-desktop-shortcuts": "^1.7.0",
@@ -14,8 +15,8 @@ export const dependencies = {
   "gemini-fetch": "^2.0.0",
   "gemini-to-html": "^1.0.0",
   "go-ipfs": "^0.17.0",
-  "hyper-sdk": "^4.2.5",
-  "hypercore-fetch": "^9.3.1",
+  "hyper-sdk": "^4.5.1",
+  "hypercore-fetch": "^9.9.1",
   "ipfs-http-client": "^60.0.0",
   "ipfsd-ctl": "^13.0.0",
   "js-ipfs-fetch": "^5.0.0",
@@ -26,8 +27,7 @@ export const dependencies = {
   "rc": "^1.2.8",
   "sanitize-filename": "^1.6.3",
   "scoped-fs": "^1.4.1",
-  "semver": "^7.5.0",
+  "semver": "^7.5.2",
   "ssb-fetch": "^1.5.2",
-  "whatwg-mimetype": "https://github.com/jsdom/whatwg-mimetype#v2.3.0",
-  "wrtc": "https://github.com/gnostr-org/node-webrtc/archive/refs/tags/v0.4.7.tar.gz"
+  "whatwg-mimetype": "https://github.com/jsdom/whatwg-mimetype#v2.3.0"
 }
