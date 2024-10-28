@@ -2,6 +2,7 @@ NODE_VERSION=v18.17.1
 -:
 	@. ~/.nvm/nvm.sh && nvm install || echo "install nvm!!!"
 	@. ~/.nvm/nvm.sh && nvm use
+	$(MAKE) install
 install:
 	@install gnostr-org /usr/local/bin/
 	@$(MAKE) npm-install
